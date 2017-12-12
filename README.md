@@ -27,6 +27,12 @@ Inside a root directory run that command:
 $ mix test
 ```
 
+or
+
+```shell
+$ make
+```
+
 License
 -------
 
