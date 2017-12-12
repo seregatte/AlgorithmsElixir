@@ -10,7 +10,7 @@ Some Algorithms written in Elixir for language studies (PR are welcome)
 
 | Name 						          | Solutions 								            | Description 										                  |
 |---------------------------|---------------------------------------|---------------------------------------------------|
-| ReverseString			        | 1 								                    | Reverse a given string            								|       
+| ReverseString			        | 3 								                    | Reverse a given string            								|       
 
 Dependencies
 ------------
