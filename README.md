@@ -1,4 +1,4 @@
-# AlgorithmsElixir
+# AlgorithmsElixir - [![Build Status](https://travis-ci.org/seregatte/AlgorithmsElixir.svg?branch=master)](https://travis-ci.org/seregatte/AlgorithmsElixir)
 
 Some Algorithms written in Elixir for language studies (PR are welcome)
 

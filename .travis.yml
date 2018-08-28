@@ -14,7 +14,7 @@ services:
 
 script:
 - |
-  if [[ "$TRAVIS_OS_NAME" == 'linux' && -n "$BASHVER" ]]; then
+  if [[ "$TRAVIS_OS_NAME" == 'linux' && -n "$ELIXIRVER" ]]; then
     printf "FROM elixir:${ELIXIRVER}-alpine\nWORKDIR /code\nRUN apk add --update make\nENTRYPOINT []\nCMD [\"make\"]" > Dockerfile
     docker build --tag tester:${ELIXIRVER}-alpine .
     docker run -it -v `pwd`:/code tester:${ELIXIRVER}-alpine
